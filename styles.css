@@ -21,29 +21,29 @@ body {
     background: #ffffff;
     padding: 2rem;
     margin: 20px;
-    width: 800px;
-    height: 840px;
+    width: 600px;
+    height: 680px;
     border-radius: 1.5rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .b1_ul{
     list-style-type: disc;
-    margin: 20px 0;
-    padding: 0 20px;
+    margin: 10px 0;
+    padding: 0 10px;
 }
 #Block-1 li{
-    margin-left: 20px;
-    font-size: 20px;
-    padding: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px;
 }
 
 #b1-li{
@@ -51,7 +51,7 @@ p{
 }
 
 strong {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .hidden {
@@ -70,9 +70,9 @@ h2{
 
 #Block-2 input{
     border: 3px solid #026c45;
-    padding: 1.5rem;
-    margin-top: 2.5rem;
-    font-size: 25px;
+    padding: 0.8rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
     border-radius: 15px;
 }
 
@@ -84,16 +84,16 @@ h2{
 }
 
 #Block-3 p{
-    margin-top: 8rem;
+    margin-top: 7rem;
     text-align: left;
     margin-left: 10px;
 }
 
 #Block-3 select{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 1.5rem;
-    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
     border: 3px solid #026c45;
 }
 
@@ -123,7 +123,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -147,10 +147,10 @@ input[type="text"], select {
 #options li {
     border-radius: 0.5rem;
     font-weight: 600;
-    margin: 1.5rem 0;
-    padding: 1rem;
+    margin: 1rem 0;
+    padding: 0.8rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     cursor: pointer;
     border: 3px solid #026c45;
     background-color: #026c45;
@@ -178,7 +178,7 @@ input[type="text"], select {
 #Block-5 h3{
     text-align: left;
     margin: 1.1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #score-block {
@@ -188,7 +188,7 @@ input[type="text"], select {
 }
 #score-block p{
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 1.5rem;
 
 }
@@ -200,8 +200,12 @@ input[type="text"], select {
 }
 #exit-game{
     margin: 3rem 0;
+    position: relative;
 }
-
+#Block-6{
+    position: relative;
+    top: -3em;
+}
 #Block-6 h1{
     position: relative;
     top: 10rem;
@@ -287,12 +291,12 @@ input[type="text"], select {
 
     #Block-6 h1{
         position: relative;
-        top: 1rem;
+        top: 4rem;
     }
     #Block-6 p{
         position: relative;
         font-size: 1rem;
-        top: 1rem;
+        top: 3rem;
     }
 
     #options li {
